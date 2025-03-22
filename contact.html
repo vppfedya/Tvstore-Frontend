@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fayzulloh TV Store</title>
+    <link rel="stylesheet" href="products.css"> <!-- Убедитесь, что имя файла правильное -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Основные стили */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo h1 a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .menu-icon {
+            display: none;
+            cursor: pointer;
+        }
+
+        .contact {
+            background-color: white;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+            color: black
+        }
+
+        .contact p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .menu-icon {
+                display: block;
+            }
+
+            nav ul {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                background-color: black;
+                top: 60px;
+                right: 0;
+                width: 100%;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Fayzulloh TV Store</a></h1>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Bosh Sahifa</a></li>
+                    <li><a href="products.html">Mahsulotlar</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="menutoggle()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Biz bilan bog'laning</h2>
+            <p><strong>Ismim:</strong> Fayzulloh</p>
+            <p><strong>Telefon raqamim:</strong> +998938804181</p>
+            <p>Bizga murojaat qiling, agar sizda savollar bo'lsa!</p>
+            <p><strong>Joylashuv:</strong> Malika bozor B blok 8-magazin</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fayzulloh TV Store. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Toggle Menu
+        function menutoggle() {
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

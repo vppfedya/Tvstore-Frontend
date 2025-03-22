@@ -1,284 +1,1244 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <title>All Products - Redstore</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="uz">
 
-    </head>
-    <body>
-        <!--<div class ="header">-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fayzulloh TV Store</title>
+    <link rel="stylesheet" href="produсts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                    <h1><a href="index.html">Fayzulloh TV Store</a></h1>
                 </div>
-               <nav>
+                <nav>
                     <ul id="MenuItems">
-                        <li><a href="index.html">Home</a></li>
-                         <li><a href="products.html">Products</a></li>
-                         <li><a href="">About</a></li>
-                         <li><a href="">Contact</a></li>
-                         <li><a href="account.html">Account</a></li>
-
+                        <li><a href="index.html">Bosh Sahifa</a></li>
+                        <li><a href="contact.html">Bog'lanish</a></li>
                     </ul>
                 </nav>
-                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
-                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+                <div class="menu-icon" onclick="menutoggle()">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
-           
         </div>
-    <!--</div>-->
-    
-        
-        <!------------------------------ Products------------------------------>
-        <div class="small-container">
-            <div class="row row-2">
-                <h2>All Products</h2>
-                <select>
-                    <option>Default sorting</option>
-                    <option>Short by price</option>
-                    <option>Short by popularity</option>
-                    <option>Short by rating</option>
-                    <option>Short by sale</option>
-                </select>
-            </div>
-            
-            
-            <!--<h2 class="title" >Featured Products</h2>-->
-            <div class="row">
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-11.jpg"></a>
-                        <a href="products-details.html"><h4>Downshifter Sports Shoes</h4></a>
-                        <div class="rating">
-                            
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-half-o" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-2.jpg"></a>
-                        <h4>Lace-Up Running Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-half-o" ></i>
-                        </div>
-                        <p>$35.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-3.jpg"></a>
-                        <h4>Lace Fastening Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$15.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-10.jpg"></a>
-                        <h4>Flat Lace-Fastening Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-o" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$48.00</p>
-                    </div>  
-                </div>
-            
-            <!-------------- new row----------------->
-            
-            <div class="row">
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-5.jpg"></a>
-                        <h4>Flat Heel gray hoes</h4>
-                        <div class="rating">
-                            
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-half-o" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$50.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-3.jpg"></a>
-                        <h4>Lace-Fastening black Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-half-o" ></i>
-                        </div>
-                        <p>$21.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-7.jpg"></a>
-                        <h4>HRX Men's cotton socks</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$09.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-2.jpg"></a>
-                        <h4>Lace-Up Running Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-o" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$35.00</p>
-                    </div>  
-                </div>
-            <!--new row for the latest product-->
-                <div class="row">
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-7.jpg"></a>
-                        <h4>HRX cotton socks</h4>
-                        <div class="rating">
-                            
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-half-o" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$10.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-10.jpg"></a>
-                        <h4>Flat Lace-Fastening Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-half-o" ></i>
-                        </div>
-                        <p>$48.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-11.jpg"></a>
-                        <h4>Loafers Men (Gray)</h4>
-                        <div class="rating">
-                            <i class="fa fa-star-o" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$15.00</p>
-                    </div>
-                    <div class="col-4">
-                        <a href="products-details.html"><img src="images/product-12.jpg"></a>
-                        <h4>Lace-Fastening white Shoes</h4>
-                        <div class="rating">
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star" ></i>
-                            <i class="fa fa-star-o" ></i>
-                            <i class="fa fa-star-o" ></i>
-                        </div>
-                        <p>$21.00</p>
-                    </div>  
-                </div>
-            
-            <div class="page-btn">
-                <span>1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-                <span>&#8594;</span>
-            </div>
-            
-        </div>
-        
-        
-        <!----------------------------------footer------------------------------------->
-        <div class ="footer">
+    </header>
+
+    <section class="products">
         <div class="container">
-            
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3>Download Our App</h3>
-                    <p>Download App for Android and ios mobile phone.</p>
-                    <div class="app-logo">
-                        <img src="images/play-store.png" alt="">
-                        <img src="images/app-store.png" alt="">
-                    </div>
-                </div>
-                <div class="footer-col-2">
-                    <img src="images/logo-white.png">
-                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
-                </div>
-                <div class="footer-col-3">
-                    <h3>Useful Links</h3>
-                   <ul>
-                       <li>Coupons</li>
-                       <li>Blog Post</li>
-                       <li>Return Policy</li>
-                       <li>Join Affiliate</li>
-                    </ul>
-                </div>
-                <div class="footer-col-4">
-                    <h3>Follow us</h3>
-                   <ul>
-                       <li>Facebook</li>
-                       <li>Twitter</li>
-                       <li>Instagram</li>
-                       <li>Youtube</li>
-                    </ul>
-                </div>
-                
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Barchasi</button>
+                <button class="filter-btn" data-filter="premier">Premier</button>
+                <button class="filter-btn" data-filter="samsung">Samsung</button>
+                <button class="filter-btn" data-filter="lg">LG</button>
+                <button class="filter-btn" data-filter="sony">Sony</button>
+                <button class="filter-btn" data-filter="sonor">Sonor</button>
+                <button class="filter-btn" data-filter="soundbar">Soundbar</button>
+                <button class="filter-btn" data-filter="printer">Printer</button>
+                <button class="filter-btn" data-filter="microwave">Mikropech</button>
+                <button class="filter-btn" data-filter="kranshten">Kranshten</button>
+                <button class="filter-btn" data-filter="beston">Beston</button>
             </div>
-            
-            <hr><!--horizontal line-->
-            <p class="copyright">Copyright 2021 - Apurba Kr. Pramanik</p>
-            
+            <div class="product-grid">
+                <div class="product-card premier" data-id="1">
+                    <img src="images/Premier 32PRM700 SV.jpg" alt="Premier 32PRM700 SV">
+                    <h3>Premier 32PRM700 SV</h3>
+                    <p>$110</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="2">
+                    <img src="images/Premier 32PRM770 HSV.jpg" alt="Premier 32PRM770 HSV">
+                    <h3>Premier 32PRM770 HSV</h3>
+                    <p>$125</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="3">
+                    <img src="images/Premier 32PRM840 FSV.jpg" alt="Premier 32PRM840 FSV">
+                    <h3>Premier 32PRM840 FSV</h3>
+                    <p>$130</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="4">
+                    <img src="images/43PRM 3010 Tizen os Full HD.jpg" alt="Premier 43PRM 3010 Tizen os Full HD">
+                    <h3>Premier 43PRM 3010 Tizen os Full HD</h3>
+                    <p>$187</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="5">
+                    <img src="images/43PRM 3010 UHD 4k tizen os.jpg" alt="43PRM 3010 UHD 4k tizen os">
+                    <h3>43PRM 3010 UHD 4k tizen os</h3>
+                    <p>$225</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="6">
+                    <img src="images/50 PRM 840 UHD 4 k.jpg" alt="50 PRM 840 UHD 4K">
+                    <h3>50 PRM 840 UHD 4K</h3>
+                    <p>$345</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="7">
+                    <img src="images/50PRM 3010 Tizen os.jpg" alt="50PRM 3010 Tizen os">
+                    <h3>50PRM 3010 Tizen os</h3>
+                    <p>$345</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="8">
+                    <img src="images/50 PRM 2020 Webos.jpg" alt="50 PRM 2020 Webos">
+                    <h3>50 PRM 2020 Webos</h3>
+                    <p>$350</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="9">
+                    <img src="images/55 PRM 840.jpg" alt="55 PRM 840 UHD 4k">
+                    <h3>55 PRM 840 UHD 4K</h3>
+                    <p>$390</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="10">
+                    <img src="images/55 PRM 3010 Tizen os.jpg" alt="55 PRM 3010 Tizen os">
+                    <h3>55 PRM 3010 Tizen os</h3>
+                    <p>$410</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="11">
+                    <img src="images/65 PRM 840 UHD 4K.jpg" alt="65 PRM 840 UHD 4k">
+                    <h3>65 PRM 840 UHD 4K</h3>
+                    <p>$540</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card premier" data-id="12">
+                    <img src="images/55 PRM 3010 Tizen os.jpg" alt="65 PRM 3010 Tizen os">
+                    <h3>65 PRM 3010 Tizen os</h3>
+                    <p>$540</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="13">
+                    <img src="images/Samsung 55DU7100 UHD 4K.jpg" alt="Samsung 55DU7100 UHD 4K">
+                    <h3>Samsung 55DU7100 UHD 4K</h3>
+                    <p>$575</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="14">
+                    <img src="images/Samsung 55DU8000 UHD 4K.jpg" alt="Samsung 55DU8000 UHD 4K">
+                    <h3>Samsung 55DU8000 UHD 4K</h3>
+                    <p>$590</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="15">
+                    <img src="images/Samsung 65DU7100 UHD 4K.jpg" alt="Samsung 65DU7100 UHD 4K">
+                    <h3>Samsung 65DU7100 UHD 4K</h3>
+                    <p>$745</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="16">
+                    <img src="images/Samsung 65DU8000 UHD 4K.jpg" alt="Samsung 65DU8000 UHD 4K">
+                    <h3>Samsung 65DU8000 UHD 4K</h3>
+                    <p>$810</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="17">
+                    <img src="images/Samsung 75DU7100 UHD 4K.jpg" alt="Samsung 75DU7100 UHD 4K">
+                    <h3>Samsung 75DU7100 UHD 4K</h3>
+                    <p>$1160</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="18">
+                    <img src="images/Samsung 75DU8000 UHD 4K.jpg" alt="Samsung 75DU8000 UHD 4K">
+                    <h3>Samsung 75DU8000 UHD 4K</h3>
+                    <p>$1280</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="19">
+                    <img src="images/Samsung 55LS03AAU The Frame.jpg" alt="Samsung 55LS03AAU The Frame">
+                    <h3>Samsung 55LS03AAU The Frame</h3>
+                    <p>$825</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card samsung" data-id="20">
+                    <img src="images/Samsung 65LS03BAU The Frame.jpg" alt="Samsung 65LS03BAU The Frame">
+                    <h3>Samsung 65LS03BAU The Frame</h3>
+                    <p>$1280</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- LG TV -->
+                <div class="product-card lg" data-id="21">
+                    <img src="images/LG 43UT80006 UHD 4K.jpg" alt="LG 43UT80006 UHD 4K">
+                    <h3>LG 43UT80006 UHD 4K</h3>
+                    <p>$400</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="22">
+                    <img src="images/LG 43UT81009 UHD 4K.jpg" alt="LG 43UT81009 UHD 4K">
+                    <h3>LG 43UT81009 UHD 4K</h3>
+                    <p>$410</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="23">
+                    <img src="images/LG 50UT80006 UHD 4K.jpg" alt="LG 50UT80006 UHD 4K">
+                    <h3>LG 50UT80006 UHD 4K</h3>
+                    <p>$490</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="24">
+                    <img src="images/LG 50UT91006 UHD 4K.jpg" alt="LG 50UT91006 UHD 4K">
+                    <h3>LG 50UT91006 UHD 4K</h3>
+                    <p>$540</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="25">
+                    <img src="images/LG 50Qned86T6A.jpg" alt="LG 50Qned86T6A">
+                    <h3>LG 50Qned86T6A</h3>
+                    <p>$675</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="26">
+                    <img src="images/LG 55UT80006 UHD 4K.jpg" alt="LG 55UT80006 UHD 4K">
+                    <h3>LG 55UT80006 UHD 4K</h3>
+                    <p>$575</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="27">
+                    <img src="images/LG 55UT91006 UHD 4K.jpg" alt="LG 55UT91006 UHD 4K">
+                    <h3>LG 55UT91006 UHD 4K</h3>
+                    <p>$640</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="28">
+                    <img src="images/LG 65UT80006 UHD 4K.jpg" alt="LG 65UT80006 UHD 4K">
+                    <h3>LG 65UT80006 UHD 4K</h3>
+                    <p>$765</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="29">
+                    <img src="images/LG 75UT81009 UHD 4K.jpg" alt="LG 75UT81009 UHD 4K">
+                    <h3>LG 75UT81009 UHD 4K</h3>
+                    <p>$1225</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card lg" data-id="30">
+                    <img src="images/LG 86UT81006 UHD 4K.jpg" alt="LG 86UT81006 UHD 4K">
+                    <h3>LG 86UT81006 UHD 4K</h3>
+                    <p>$1900</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Sony Bravia TV -->
+                <div class="product-card sony" data-id="31">
+                    <img src="images/Sony 43X81K.jpg" alt="Sony 43X81K">
+                    <h3>Sony 43X81K</h3>
+                    <p>$550</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="32">
+                    <img src="images/Sony 50X75WL.jpg" alt="Sony 50X75WL">
+                    <h3>Sony 50X75WL</h3>
+                    <p>$745</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="33">
+                    <img src="images/Sony 55X75WL.jpg" alt="Sony 55X75WL">
+                    <h3>Sony 55X75WL</h3>
+                    <p>$775</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="34">
+                    <img src="images/Sony 55X81J.jpg" alt="Sony 55X81J">
+                    <h3>Sony 55X81J</h3>
+                    <p>$690</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="35">
+                    <img src="images/Sony 55X80L.jpg" alt="Sony 55X80L">
+                    <h3>Sony 55X80L</h3>
+                    <p>$850</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="36">
+                    <img src="images/Sony 55X85L.jpg" alt="Sony 55X85L">
+                    <h3>Sony 55X85L</h3>
+                    <p>$1030</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="37">
+                    <img src="images/Sony 65X75WL.jpg" alt="Sony 65X75WL">
+                    <h3>Sony 65X75WL</h3>
+                    <p>$975</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="38">
+                    <img src="images/Sony 75X81J.jpg" alt="Sony 75X81J">
+                    <h3>Sony 75X81J</h3>
+                    <p>$1340</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Sonor TV -->
+                <div class="product-card sonor" data-id="39">
+                    <img src="images/Sonor 32SNR100S Android TV.jpg" alt="Sonor 32SNR100S Android TV">
+                    <h3>Sonor 32SNR100S Android TV</h3>
+                    <p>$100</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sonor" data-id="40">
+                    <img src="images/Sonor 50SNR100S USV.jpg" alt="Sonor 50SNR100S USV">
+                    <h3>Sonor 50SNR100S USV</h3>
+                    <p>$300</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sonor" data-id="41">
+                    <img src="images/Sonor 55SNR100S USV.jpg" alt="Sonor 55SNR100S USV">
+                    <h3>Sonor 55SNR100S USV</h3>
+                    <p>$340</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Samsung Soundbars -->
+                <div class="product-card soundbar" data-id="42">
+                    <img src="images/Samsung B650D.jpg" alt="Samsung B650D">
+                    <h3>Samsung B650D</h3>
+                    <p>$250</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="43">
+                    <img src="images/Samsung Q600C.jpg" alt="Samsung Q600C">
+                    <h3>Samsung Q600C</h3>
+                    <p>$370</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="44">
+                    <img src="images/Samsung Q700D.jpg" alt="Samsung Q700D">
+                    <h3>Samsung Q700D</h3>
+                    <p>$420</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="45">
+                    <img src="images/Samsung Q800D.jpg" alt="Samsung Q800D">
+                    <h3>Samsung Q800D</h3>
+                    <p>$580</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="46">
+                    <img src="images/Samsung Q990D.jpg" alt="Samsung Q990D">
+                    <h3>Samsung Q990D</h3>
+                    <p>$1250</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="47">
+                    <img src="images/Samsung S700D.jpg" alt="Samsung S700D">
+                    <h3>Samsung S700D</h3>
+                    <p>$400</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="48">
+                    <img src="images/Samsung S701D (белый).jpg" alt="Samsung S701D">
+                    <h3>Samsung S701D (белый)</h3>
+                    <p>$400</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="49">
+                    <img src="images/Samsung S800D.jpg" alt="Samsung S800D">
+                    <h3>Samsung S800D</h3>
+                    <p>$410</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="50">
+                    <img src="images/Samsung S801D (белый).jpg" alt="Samsung S801D">
+                    <h3>Samsung S801D (белый)</h3>
+                    <p>$415</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="51">
+                    <img src="images/Samsung HW-S61D (белый).jpg" alt="Samsung HW-S61D">
+                    <h3>Samsung HW-S61D (белый)</h3>
+                    <p>$190</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card soundbar" data-id="52">
+                    <img src="images/Samsung HW-S60D.jpg" alt="Samsung HW-S60D">
+                    <h3>Samsung HW-S60D</h3>
+                    <p>$190</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Sony Speakers -->
+                <div class="product-card sony" data-id="53">
+                    <img src="images/Sony MHC-V02.jpg" alt="Sony MHC-V02">
+                    <h3>Sony MHC-V02</h3>
+                    <p>$240</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="54">
+                    <img src="images/Sony MHC-V13.jpg" alt="Sony MHC-V13">
+                    <h3>Sony MHC-V13</h3>
+                    <p>$310</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="55">
+                    <img src="images/Sony MHC-V43D.jpg" alt="Sony MHC-V43D">
+                    <h3>Sony MHC-V43D</h3>
+                    <p>$445</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="56">
+                    <img src="images/Sony HT-S20.jpg" alt="Sony HT-S20">
+                    <h3>Sony HT-S20</h3>
+                    <p>$270</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="57">
+                    <img src="images/Sony HT-S40.jpg" alt="Sony HT-S40">
+                    <h3>Sony HT-S40</h3>
+                    <p>$325</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card sony" data-id="58">
+                    <img src="images/Sony HT-S400.jpg" alt="Sony HT-S400">
+                    <h3>Sony HT-S400</h3>
+                    <p>$270</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- JBL Soundbars -->
+                <div class="product-card jbl" data-id="59">
+                    <img src="images/JBL Bar 2.1 Deep Bass.jpg" alt="JBL Bar 2.1 Deep Bass">
+                    <h3>JBL Bar 2.1 Deep Bass</h3>
+                    <p>$345</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card jbl" data-id="60">
+                    <img src="images/JBL 500.jpg" alt="JBL 500">
+                    <h3>JBL 500</h3>
+                    <p>$510</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card jbl" data-id="61">
+                    <img src="images/JBL 800.jpg" alt="JBL 800">
+                    <h3>JBL 800</h3>
+                    <p>$780</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card jbl" data-id="62">
+                    <img src="images/JBL 1000.jpg" alt="JBL 1000">
+                    <h3>JBL 1000</h3>
+                    <p>$890</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card jbl" data-id="63">
+                    <img src="images/JBL 1300.jpg" alt="JBL 1300">
+                    <h3>JBL 1300</h3>
+                    <p>$1170</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Kranshten TVs -->
+                <div class="product-card kranshten" data-id="64">
+                    <img src="images/Kranshten Smart LCD AHM 01.jpg" alt="Kranshten Smart LCD AHM 01">
+                    <h3>Kranshten Smart LCD AHM 01</h3>
+                    <p>$9</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="65">
+                    <img src="images/Kranshten Skill Teach 32P.jpg" alt="Kranshten Skill Teach 32P">
+                    <h3>Kranshten Skill Teach 32P</h3>
+                    <p>$13</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="66">
+                    <img src="images/Kranshten NB P4.jpg" alt="Kranshten NB P4">
+                    <h3>Kranshten NB P4</h3>
+                    <p>$23</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="67">
+                    <img src="images/Kranshten NB P6.jpg" alt="Kranshten NB P6">
+                    <h3>Kranshten NB P6</h3>
+                    <p>$35</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="68">
+                    <img src="images/Kranshten LED TV 3270 (2).jpg" alt="Kranshten LED TV 32/70">
+                    <h3>Kranshten LED TV 32/70</h3>
+                    <p>$12</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Beston Refrigerators -->
+                <div class="product-card beston" data-id="69">
+                    <img src="images/Beston BD-295BG.jpg" alt="Beston BD-295BG">
+                    <h3>Beston BD-295BG</h3>
+                    <p>$255</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card beston" data-id="70">
+                    <img src="images/Beston BD-295PN.jpg" alt="Beston BD-295PN">
+                    <h3>Beston BD-295PN</h3>
+                    <p>$315</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card beston" data-id="71">
+                    <img src="images/Beston BD-295DN.jpg" alt="Beston BD-295DN">
+                    <h3>Beston BD-295DN</h3>
+                    <p>$270</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card beston" data-id="72">
+                    <img src="images/Beston BD-295BG-2.jpg" alt="Beston BD-295BG-2">
+                    <h3>Beston BD-295BG-2</h3>
+                    <p>$370</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Samsung Microwaves -->
+                <div class="product-card microwave" data-id="73">
+                    <img src="images/Samsung ME 81 MRTBBW.jpg" alt="Samsung ME 81 MRTB/BW">
+                    <h3>Samsung ME 81 MRTB/BW</h3>
+                    <p>$133</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="74">
+                    <img src="images/Samsung GE 83M RTSBW.jpg" alt="Samsung GE 83M RTS/BW">
+                    <h3>Samsung GE 83M RTS/BW</h3>
+                    <p>$145</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="75">
+                    <img src="images/Samsung MS 23 K3614 AKBW.jpg" alt="Samsung MS 23 K3614 AK/BW">
+                    <h3>Samsung MS 23 K3614 AK/BW</h3>
+                    <p>$138</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="76">
+                    <img src="images/Samsung MS 23 K3614 AKBW.jpg" alt="Samsung MS 23K3614 AW/BW">
+                    <h3>Samsung MS 23K3614 AW/BW</h3>
+                    <p>$139</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="77">
+                    <img src="images/Samsung MS 23 T5018KBW.jpg" alt="Samsung MS 23 T5018K/BW">
+                    <h3>Samsung MS 23 T5018K/BW</h3>
+                    <p>$147</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="78">
+                    <img src="images/Samsung MS 23 T5018KBW.jpg" alt="Samsung MS 23 T5018K/BW">
+                    <h3>Samsung MS 23 T5018 AG/BW</h3>
+                    <p>$148</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="79">
+                    <img src="images/Samsung MG 23K3575 ASBW.jpg" alt="Samsung MG 23K3575 AS/BW">
+                    <h3>Samsung MG 23K3575 AS/BW</h3>
+                    <p>$152</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card microwave" data-id="80">
+                    <img src="images/Samsung MG 23 K3575KBW.jpg" alt="Samsung MG 23 K3575K/BW">
+                    <h3>Samsung MG 23 K3575K/BW</h3>
+                    <p>$152</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Printers -->
+                <div class="product-card printer" data-id="81">
+                    <img src="images/Canon MAXIFY-GX5040.jpg" alt="Canon MAXIFY-GX5040">
+                    <h3>Canon MAXIFY-GX5040</h3>
+                    <p>$345</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card printer" data-id="82">
+                    <img src="images/Epson L-3210.jpg" alt="Epson L-3210">
+                    <h3>Epson L-3210</h3>
+                    <p>$170</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card printer" data-id="83">
+                    <img src="images/Epson L-3200.jpg" alt="Epson L-3200">
+                    <h3>Epson L-3200</h3>
+                    <p>$170</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card printer" data-id="84">
+                    <img src="images/Epson L-3250.jpg" alt="Epson L-3250">
+                    <h3>Epson L-3250</h3>
+                    <p>$187</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card printer" data-id="85">
+                    <img src="images/Epson L-3256.jpg" alt="Epson L-3256">
+                    <h3>Epson L-3256</h3>
+                    <p>$190</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Hikvision Damafo’n -->
+                <div class="product-card hikvision" data-id="86">
+                    <img src="images/DS-KV-9503-WBE1.jpg" alt="DS-KV-9503-WBE1">
+                    <h3>DS-KV-9503-WBE1</h3>
+                    <p>$250</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card hikvision" data-id="87">
+                    <img src="images/DS-KH9310-WTE1-(B).jpg" alt="DS-KH9310-WTE1-B">
+                    <h3>DS-KH9310-WTE1-(B)</h3>
+                    <p>$165</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card hikvision" data-id="88">
+                    <img src="images/DS-KH8350-WTE1(O.STD).jpg" alt="DS-KH8350-WTE1-O-STD">
+                    <h3>DS-KH8350-WTE1(O.STD)</h3>
+                    <p>$180</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card hikvision" data-id="89">
+                    <img src="images/DS-KH8520-WTE1-(O.STD).jpg" alt="DS-KH8520-WTE1-O-STD">
+                    <h3>DS-KH8520-WTE1-(O.STD)</h3>
+                    <p>$160</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Kranshten TVs -->
+                <div class="product-card kranshten" data-id="90">
+                    <img src="images/Kranshten Smart LCD AHM 01.jpg" alt="Kranshten Smart LCD 01">
+                    <h3>Kranshten Smart LCD 01</h3>
+                    <p>$10</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="91">
+                    <img src="images/Kranshten Smart LCD AHM 01.jpg" alt="Kranshten Smart LCD 02">
+                    <h3>Kranshten Smart LCD 02</h3>
+                    <p>$15</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="92">
+                    <img src="images/Kranshten Skill Teach 32P.jpg" alt="Kranshten Skill Teach 32P">
+                    <h3>Kranshten Skill Teach 32P</h3>
+                    <p>$15</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="93">
+                    <img src="images/Kranshten NB P4.jpg" alt="Kranshten NB P4">
+                    <h3>Kranshten NB P4</h3>
+                    <p>$25</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card kranshten" data-id="94">
+                    <img src="images/Kranshten LED TV 3270 (2).jpg" alt="Kranshten NB P6">
+                    <h3>Kranshten NB P6</h3>
+                    <p>$38</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+
+                <!-- Samsung Pelesos -->
+                <div class="product-card pelesos" data-id="95">
+                    <img src="images/Samsung VC-20M2025JPUZ.jpg" alt="Samsung VC-20M2025JP/UZ">
+                    <h3>Samsung VC-20M2025JP/UZ</h3>
+                    <p>$123</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card pelesos" data-id="96">
+                    <img src="images/Samsung VC-20M2545JNUZ.jpg" alt="Samsung VC-20M2545JN/UZ">
+                    <h3>Samsung VC-20M2545JN/UZ</h3>
+                    <p>$128</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card pelesos" data-id="97">
+                    <img src="images/Samsung VC-20M2565JNUZ.jpg" alt="Samsung VC-20M2565JN/UZ">
+                    <h3>Samsung VC-20M2565JN/UZ</h3>
+                    <p>$133</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card pelesos" data-id="98">
+                    <img src="images/Samsung VC-20M255BWB.jpg" alt="Samsung VC-20M255BWB">
+                    <h3>Samsung VC-20M255BWB</h3>
+                    <p>$130</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+                <div class="product-card pelesos" data-id="99">
+                    <img src="images/Samsung VC-20M253BWR.jpg" alt="Samsung VC-20M253BWR">
+                    <h3>Samsung VC-20M253BWR</h3>
+                    <p>$118</p>
+                    <button class="info-button">Ma'lumot</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Info Modal -->
+    <div class="modal" id="productInfoModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="productTitle"></h2>
+            <p id="productDescription"></p>
+            <a id="contactLink" href="#" class="contact-button" target="_blank">Bog'lanish</a>
         </div>
     </div>
-        
-        
-        <!-----------------------------------js for toggle menu----------------------------------------------->
-        <script>
-            var menuItems=document.getElementById("MenuItems");
-            
-            MenuItems.style.maxHeight="0px";
-            function menutoggle(){
-                if(MenuItems.style.maxHeight == "0px"){
-                    MenuItems.style.maxHeight="200px";
-                }
-                else{
-                    MenuItems.style.maxHeight="0px";
-                }
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 B-8 Malika. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Toggle Menu
+        function menutoggle() {
+            const MenuItems = document.getElementById("MenuItems");
+            MenuItems.classList.toggle("active");
+        }
+
+        // Product Filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const productCards = document.querySelectorAll('.product-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                productCards.forEach(card => {
+                    card.style.display = (filterValue === 'all' || card.classList.contains(filterValue)) ? 'block' : 'none';
+                });
+            });
+        });
+
+        // Open Product Info Modal
+        const infoButtons = document.querySelectorAll(".info-button");
+        const productInfoModal = document.getElementById("productInfoModal");
+        const closeInfoBtn = document.querySelector(".close-btn");
+
+        const productDescriptions = {
+            1: {
+                title: "Premier 32PRM700 SV",
+                description: "📺 Premier 32PRM700 SV - 32 dyuym, Full HD, ranglar yorqin, ovoz sifati yuqori. Bu televizor sizga ajoyib tomosha tajribasini taqdim etadi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            2: {
+                title: "Premier 32PRM770 HSV",
+                description: "📺 Premier 32PRM770 HSV - 32 dyuym, HD Ready, aqlli funksiyalar va zamonaviy dizayn. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            3: {
+                title: "Premier 32PRM840 FSV",
+                description: "📺 Premier 32PRM840 FSV - 32 dyuym, LED, yuqori yorqinlik va kontrast. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            4: {
+                title: "Premier 43PRM 3010 Tizen os Full HD",
+                description: "📺 Premier 43PRM 3010 Tizen os Full HD - 43 dyuym, Full HD, Tizen OS bilan aqlli funksiyalar. Televizor orqali ko'plab ilovalarga kirish imkoniyati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            5: {
+                title: "43PRM 3010 UHD 4k tizen os",
+                description: "📺 43PRM 3010 UHD 4k tizen os - 43 dyuym, UHD 4K, ajoyib tasvir sifati. Har bir detali aniq va ravshan.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            6: {
+                title: "50 PRM 840 UHD 4K",
+                description: "📺 50 PRM 840 UHD 4K - 50 dyuym, UHD 4K, qiziqarli tomosha tajribasi. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            7: {
+                title: "50PRM 3010 Tizen os",
+                description: "📺 50PRM 3010 Tizen os - 50 dyuym, Tizen OS bilan aqlli funksiyalar. Televizor orqali ko'plab ilovalarga kirish imkoniyati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            8: {
+                title: "50 PRM 2020 Webos",
+                description: "📺 50 PRM 2020 Webos - 50 dyuym, WebOS, oson navigatsiya. Televizor orqali ko'plab ilovalarga kirish imkoniyati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            9: {
+                title: "55 PRM 840 UHD 4K",
+                description: "📺 55 PRM 840 UHD 4K - 55 dyuym, UHD 4K, yorqin ranglar va chuqur qora. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            10: {
+                title: "55 PRM 3010 Tizen os",
+                description: "📺 55 PRM 3010 Tizen os - 55 dyuym, Tizen OS, aqlli imkoniyatlar. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            11: {
+                title: "65 PRM 840 UHD 4K",
+                description: "📺 65 PRM 840 UHD 4K - 65 dyuym, UHD 4K, ajoyib vizual tasvir. Har bir detali aniq va ravshan.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            12: {
+                title: "65 PRM 3010 Tizen os",
+                description: "📺 65 PRM 3010 Tizen os - 65 dyuym, Tizen OS bilan aqlli funksiyalar. Televizor orqali ko'plab ilovalarga kirish imkoniyati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            13: {
+                title: "Samsung 55DU7100 UHD 4K",
+                description: "📺 Samsung 55DU7100 UHD 4K - 55 dyuym, UHD 4K, HDR qo'llab-quvvatlash. Ajoyib tasvir va ranglar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            14: {
+                title: "Samsung 55DU8000 UHD 4K",
+                description: "📺 Samsung 55DU8000 UHD 4K - 55 dyuym, UHD 4K, aqlli funksiyalar. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            15: {
+                title: "Samsung 65DU7100 UHD 4K",
+                description: "📺 Samsung 65DU7100 UHD 4K - 65 dyuym, UHD 4K, ajoyib tasvir sifati. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            16: {
+                title: "Samsung 65DU8000 UHD 4K",
+                description: "📺 Samsung 65DU8000 UHD 4K - 65 dyuym, UHD 4K, ajoyib tasvir sifati. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            17: {
+                title: "Samsung 75DU7100 UHD 4K",
+                description: "📺 Samsung 75DU7100 UHD 4K - 75 dyuym, UHD 4K, ajoyib tasvir sifati. Har bir detali aniq va ravshan.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            18: {
+                title: "Samsung 75DU8000 UHD 4K",
+                description: "📺 Samsung 75DU8000 UHD 4K - 75 dyuym, UHD 4K, ajoyib tasvir sifati. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            19: {
+                title: "Samsung 55LS03AAU The Frame",
+                description: "🖼️ Samsung 55LS03AAU The Frame - 55 dyuym, ajoyib dizayn. Televizoringizni san'at asariga aylantiring.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            20: {
+                title: "Samsung 65LS03BAU The Frame",
+                description: "🖼️ Samsung 65LS03BAU The Frame - 65 dyuym, ajoyib dizayn. Televizoringizni san'at asariga aylantiring.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            21: {
+                title: "LG 43UT80006 UHD 4K",
+                description: "📺 LG 43UT80006 UHD 4K - 43 dyuym, UHD 4K, rang aniqligi yuqori. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            22: {
+                title: "LG 43UT81009 UHD 4K",
+                description: "📺 LG 43UT81009 UHD 4K - 43 dyuym, UHD 4K, rang aniqligi yuqori. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            23: {
+                title: "LG 50UT80006 UHD 4K",
+                description: "📺 LG 50UT80006 UHD 4K - 50 dyuym, UHD 4K, rang aniqligi yuqori. Ajoyib tomosha tajribasi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            24: {
+                title: "LG 50UT91006 UHD 4K",
+                description: "📺 LG 50UT91006 UHD 4K - 50 dyuym, UHD 4K, rang aniqligi yuqori. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            25: {
+                title: "LG 50Qned86T6A",
+                description: "📺 LG 50Qned86T6A - 50 dyuym, rang aniqligi yuqori. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            26: {
+                title: "LG 55UT80006 UHD 4K",
+                description: "📺 LG 55UT80006 UHD 4K - 55 dyuym, UHD 4K, rang aniqligi yuqori. Ajoyib tomosha tajribasi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            27: {
+                title: "LG 55UT91006 UHD 4K",
+                description: "📺 LG 55UT91006 UHD 4K - 55 dyuym, UHD 4K, rang aniqligi yuqori. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            28: {
+                title: "LG 65UT80006 UHD 4K",
+                description: "📺 LG 65UT80006 UHD 4K - 65 dyuym, UHD 4K, rang aniqligi yuqori. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            29: {
+                title: "LG 75UT81009 UHD 4K",
+                description: "📺 LG 75UT81009 UHD 4K - 75 dyuym, UHD 4K, rang aniqligi yuqori. Ajoyib tomosha tajribasi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            30: {
+                title: "LG 86UT81006 UHD 4K",
+                description: "📺 LG 86UT81006 UHD 4K - 86 dyuym, UHD 4K, rang aniqligi yuqori. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            31: {
+                title: "Sony 43X81K",
+                description: "📺 Sony 43X81K - 43 dyuym, 4K HDR, ajoyib ovoz sifati. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            32: {
+                title: "Sony 50X75WL",
+                description: "📺 Sony 50X75WL - 50 dyuym, 4K HDR, ajoyib ovoz sifati. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            33: {
+                title: "Sony 55X75WL",
+                description: "📺 Sony 55X75WL - 55 dyuym, 4K HDR, ajoyib ovoz sifati. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            34: {
+                title: "Sony 55X81J",
+                description: "📺 Sony 55X81J - 55 dyuym, 4K HDR, ajoyib ovoz sifati. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            35: {
+                title: "Sony 55X80L",
+                description: "📺 Sony 55X80L - 55 dyuym, 4K HDR, ajoyib ovoz sifati. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            36: {
+                title: "Sony 55X85L",
+                description: "📺 Sony 55X85L - 55 dyuym, 4K HDR, ajoyib ovoz sifati. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            37: {
+                title: "Sony 65X75WL",
+                description: "📺 Sony 65X75WL - 65 dyuym, 4K HDR, ajoyib ovoz sifati. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            38: {
+                title: "Sony 75X81J",
+                description: "📺 Sony 75X81J - 75 dyuym, 4K HDR, ajoyib ovoz sifati. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            39: {
+                title: "Sonor 32SNR100S Android TV",
+                description: "📺 Sonor 32SNR100S Android TV - 32 dyuym, Android TV, aqlli funksiyalar. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            40: {
+                title: "Sonor 50SNR100S USV",
+                description: "📺 Sonor 50SNR100S USV - 50 dyuym, ajoyib tasvir sifati. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            41: {
+                title: "Sonor 55SNR100S USV",
+                description: "📺 Sonor 55SNR100S USV - 55 dyuym, ajoyib tasvir sifati. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            42: {
+                title: "Samsung B650D",
+                description: "📺 Samsung B650D - 250$. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            43: {
+                title: "Samsung Q600C",
+                description: "📺 Samsung Q600C - 370$. Ajoyib tasvir va ranglar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            44: {
+                title: "Samsung Q700D",
+                description: "📺 Samsung Q700D - 420$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            45: {
+                title: "Samsung Q800D",
+                description: "📺 Samsung Q800D - 580$. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            46: {
+                title: "Samsung Q990D",
+                description: "📺 Samsung Q990D - 1250$. Ajoyib tasvir va ranglar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            47: {
+                title: "Samsung S700D",
+                description: "📺 Samsung S700D - 400$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            48: {
+                title: "Samsung S701D (белый)",
+                description: "📺 Samsung S701D (белый) - 400$. Har bir sahna hayotga keladi.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            49: {
+                title: "Samsung S800D",
+                description: "📺 Samsung S800D - 410$. Ajoyib tasvir va ranglar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            50: {
+                title: "Samsung S801D (белый)",
+                description: "📺 Samsung S801D (белый) - 400$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            51: {
+                title: "Samsung HW-S61D (белый)",
+                description: "📺 Samsung HW-S61D (белый) - 190$. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            52: {
+                title: "Samsung HW-S60D",
+                description: "📺 Samsung HW-S60D - 190$. Ajoyib ovoz sifati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            53: {
+                title: "Sony MHC-V02",
+                description: "🔊 Sony MHC-V02 - 240$. Ajoyib ovoz sifati va kuchli bass.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            54: {
+                title: "Sony MHC-V13",
+                description: "🔊 Sony MHC-V13 - 310$. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            55: {
+                title: "Sony MHC-V43D",
+                description: "🔊 Sony MHC-V43D - 445$. Ajoyib ovoz sifati va kuchli bass.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            56: {
+                title: "Sony HT-S20",
+                description: "🔊 Sony HT-S20 - 270$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            57: {
+                title: "Sony HT-S40",
+                description: "🔊 Sony HT-S40 - 325$. Ajoyib ovoz sifati va kuchli bass.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            58: {
+                title: "Sony HT-S400",
+                description: "🔊 Sony HT-S400 - 270$. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            59: {
+                title: "JBL Bar 2.1 Deep Bass",
+                description: "🔊 JBL Bar 2.1 Deep Bass - 345$. Ajoyib ovoz sifati va kuchli bass.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            60: {
+                title: "JBL 500",
+                description: "🔊 JBL 500 - 510$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            61: {
+                title: "JBL 800",
+                description: "🔊 JBL 800 - 780$. Ajoyib ovoz sifati va kuchli bass.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            62: {
+                title: "JBL 1000",
+                description: "🔊 JBL 1000 - 890$. Ovoz va tasvir sifati birgalikda mukammal.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            63: {
+                title: "JBL 1300",
+                description: "🔊 JBL 1300 - 1170$. Ajoyib ovoz sifati va kuchli bass.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            64: {
+                title: "Kranshten Smart LCD AHM 01",
+                description: "📺 Kranshten Smart LCD AHM 01 - 9$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            65: {
+                title: "Kranshten Smart LCD 02",
+                description: "📺 Kranshten Smart LCD 02 - 15$. Ajoyib tasvir sifati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            66: {
+                title: "Kranshten Skill Teach 32P",
+                description: "📺 Kranshten Skill Teach 32P - 15$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            67: {
+                title: "Kranshten NB P4",
+                description: "📺 Kranshten NB P4 - 25$. Ajoyib tasvir sifati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            68: {
+                title: "Kranshten NB P6",
+                description: "📺 Kranshten NB P6 - 38$. Oson navigatsiya va ko'p funksiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            69: {
+                title: "Beston BD-295BG",
+                description: "📦 Beston BD-295BG - 255$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            70: {
+                title: "Beston BD-295PN",
+                description: "📦 Beston BD-295PN - 315$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            71: {
+                title: "Beston BD-295DN",
+                description: "📦 Beston BD-295DN - 270$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            72: {
+                title: "Beston BD-295BG-2",
+                description: "📦 Beston BD-295BG-2 - 370$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            73: {
+                title: "Samsung ME 81 MRTB/BW",
+                description: "🍽️ Samsung ME 81 MRTB/BW - 133$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            74: {
+                title: "Samsung GE 83M RTS/BW",
+                description: "🍽️ Samsung GE 83M RTS/BW - 145$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            75: {
+                title: "Samsung MS 23 K3614 AK/BW",
+                description: "🍽️ Samsung MS 23 K3614 AK/BW - 138$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            76: {
+                title: "Samsung MS 23K3614 AW/BW",
+                description: "🍽️ Samsung MS 23K3614 AW/BW - 139$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            77: {
+                title: "Samsung MS 23 T5018K/BW",
+                description: "🍽️ Samsung MS 23 T5018K/BW - 147$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            78: {
+                title: "Samsung MS 23 T5018 AG/BW",
+                description: "🍽️ Samsung MS 23 T5018 AG/BW - 148$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            79: {
+                title: "Samsung MG 23K3575 AS/BW",
+                description: "🍽️ Samsung MG 23K3575 AS/BW - 152$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            80: {
+                title: "Samsung MG 23 K3575K/BW",
+                description: "🍽️ Samsung MG 23 K3575K/BW - 152$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            81: {
+                title: "Canon MAXIFY-GX5040",
+                description: "🖨️ Canon MAXIFY-GX5040 - 345$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            82: {
+                title: "Epson L-3210",
+                description: "🖨️ Epson L-3210 - 170$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            83: {
+                title: "Epson L-3200",
+                description: "🖨️ Epson L-3200 - 170$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            84: {
+                title: "Epson L-3250",
+                description: "🖨️ Epson L-3250 - 187$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            85: {
+                title: "Epson L-3256",
+                description: "🖨️ Epson L-3256 - 190$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            86: {
+                title: "DS-KV-9503-WBE1",
+                description: "📞 DS-KV-9503-WBE1 - 250$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            87: {
+                title: "DS-KH9310-WTE1-B",
+                description: "📞 DS-KH9310-WTE1-(B) - 165$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            88: {
+                title: "DS-KH8350-WTE1-O-STD",
+                description: "📞 DS-KH8350-WTE1-O-STD - 180$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            89: {
+                title: "DS-KH8520-WTE1-O-STD",
+                description: "📞 DS-KH8520-WTE1-(O.STD) - 160$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            90: {
+                title: "Kranshten Smart LCD AHM 01",
+                description: "📺 Kranshten Smart LCD AHM 01 - 10$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            91: {
+                title: "Kranshten Smart LCD 02",
+                description: "📺 Kranshten Smart LCD 02 - 15$. Ajoyib tasvir sifati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            92: {
+                title: "Kranshten Skill Teach 32P",
+                description: "📺 Kranshten Skill Teach 32P - 15$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            93: {
+                title: "Kranshten NB P4",
+                description: "📺 Kranshten NB P4 - 25$. Ajoyib tasvir sifati.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            94: {
+                title: "Kranshten NB P6",
+                description: "📺 Kranshten NB P6 - 38$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            95: {
+                title: "Samsung VC-20M2025JP/UZ",
+                description: "🍽️ Samsung VC-20M2025JP/UZ - 123$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            96: {
+                title: "Samsung VC-20M2545JN-UZ",
+                description: "🍽️ Samsung VC-20M2545JN/UZ - 128$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            97: {
+                title: "Samsung VC-20M2565JN-UZ",
+                description: "🍽️ Samsung VC-20M2565JN/UZ - 133$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            98: {
+                title: "Samsung VC-20M255BWB",
+                description: "🍽️ Samsung VC-20M255BWB - 130$. Ajoyib tasvir sifati va kuchli funktsiyalar.",
+                contactLink: "https://t.me/TV_malika"
+            },
+            99: {
+                title: "Samsung VC-20M253BWR",
+                description: "🍽️ Samsung VC-20M253BWR - 118$. Oson foydalanish va yuqori sifat.",
+                contactLink: "https://t.me/TV_malika"
             }
-        </script>
-    </body>
+        };
+
+        infoButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const productId = button.parentElement.getAttribute('data-id');
+                const productInfo = productDescriptions[productId];
+
+                document.getElementById("productTitle").innerText = productInfo.title;
+                document.getElementById("productDescription").innerText = productInfo.description;
+                document.getElementById("contactLink").href = productInfo.contactLink;
+
+                productInfoModal.style.display = "block";
+            });
+        });
+
+        closeInfoBtn.addEventListener('click', () => {
+            productInfoModal.style.display = "none";
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === productInfoModal) {
+                productInfoModal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+
 </html>
